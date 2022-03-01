@@ -113,7 +113,7 @@ const jwtMiddleware = (req, res, next) => {
 
 
 
-app.post('/register', (req, res) => {
+app.get('/register', (req, res) => {
 
     console.log(req.body)
 
@@ -128,7 +128,7 @@ app.post('/register', (req, res) => {
 
 
 
-app.post('/login', (req, res) => {
+app.get('/login', (req, res) => {
 
     console.log(req.body)
 

@@ -1,8 +1,8 @@
-// to connect mongodb with server
+
 
 const mongoose = require('mongoose')
 
-// connection string
+
 
 mongoose.connect('mongodb://localhost:27017/LoginServerDB', {
     useNewUrlParser: true
